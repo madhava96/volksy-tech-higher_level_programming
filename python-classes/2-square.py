@@ -2,7 +2,6 @@
 """string size"""
 
 
-my_square = Square()
 class Square:
     '''size'''
     def __init__(square, size):

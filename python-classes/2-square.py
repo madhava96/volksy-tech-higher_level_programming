@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """string size"""
 
+
 my_square = Square()
 class Square:
     '''size'''

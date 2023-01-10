@@ -8,7 +8,7 @@ class Square:
 
         if type(size) != int:
             raise typeerror("value is not integer")
-        if size < 0 :
+        if size < 0:
             raise valueerror("value is less than 0")
 
         square.__size = size

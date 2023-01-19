@@ -18,4 +18,3 @@ except:
 for i in range(1, len(sys.argv)):
     List.append(sys.argv[i])
 save_to_json_file(List, fname)
-

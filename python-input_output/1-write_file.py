@@ -1,8 +1,8 @@
 #!/usr/bin/python3
-"""number_of_lines"""
+"""write files"""
 
 
-def number_of_lines(filename=""):
-    """number_of_lines"""
-    with open(filename, "r", encoding="UTF-8") as f:
-        return len(list(f))
+def write_file(filename="", text=""):
+    """files"""
+    with open(filename, "w", encoding="UTF-8") as f:
+        return f.write(text)

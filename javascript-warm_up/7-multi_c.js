@@ -1,8 +1,8 @@
 #!/usr/bin/node
 const n = Number.parseInt(process.argv[2]);
 if (n > 0) {
-	for (i = 0; i < n; i++){
-        console.log('C is fun')
+ for (i = 0; i < n; i++){
+    console.log('C is fun')
 	}
 }
 else if (isNaN(n)){

@@ -1,4 +1,6 @@
-t request = require('request');
+#!/usr/bin/node
+// using Star Wars API, prints all `characters` of a given film, in order
+const request = require('request');
 
 function getCharName (url) {
   return new Promise((resolve, reject) => {
